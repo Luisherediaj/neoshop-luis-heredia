@@ -23,11 +23,29 @@ include "templates/header.php";
     </div><!-- .header__shop -->
 </header>
 <div class="wrapper">
+
     <div class="slider">
         <!-- TODO: Desarrollar el marcado para el slider -->
-        <img src="./resources/slider/slide1.jpg" alt="slide1">
+        <div class="sliderImg">
+            <img src="./resources/slider/slide1.jpg" alt="slide1">
+        </div>
+        <div class="sliderImg">
+            <img src="./resources/slider/slide2.jpg" alt="slide2">
+        </div>
+        <div class="sliderImg">
+            <img src="./resources/slider/slide3.jpg" alt="slide3">
+        </div>
+        <div class="sliderImg">
+            <img src="./resources/slider/slide4.jpg" alt="slide4">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     </div><!-- .slider -->
+
+
+
     <div class="products">
         <!-- TODO: Desarrollar el marcado para los productos -->
     </div><!-- .products -->
