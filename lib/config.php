@@ -2,7 +2,7 @@
 /**
  * TODO: Configura la aplicación en base a tus necesidades
  */
-define('WEB_PATH', 'neoshop/');
+define('WEB_PATH', 'neoshop-luis-heredia/');
 define('ENDPOINT_URL', 'http://localhost/neoshop/api/');
 define('PROTOCOL', 'http');
 

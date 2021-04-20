@@ -25,6 +25,8 @@ include "templates/header.php";
 <div class="wrapper">
     <div class="slider">
         <!-- TODO: Desarrollar el marcado para el slider -->
+        <img src="./resources/slider/slide1.jpg" alt="slide1">
+
     </div><!-- .slider -->
     <div class="products">
         <!-- TODO: Desarrollar el marcado para los productos -->
