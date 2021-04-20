@@ -26,21 +26,16 @@ include "templates/header.php";
 
     <div class="slider">
         <!-- TODO: Desarrollar el marcado para el slider -->
-        <div class="sliderImg">
-            <img src="./resources/slider/slide1.jpg" alt="slide1">
-        </div>
-        <div class="sliderImg">
-            <img src="./resources/slider/slide2.jpg" alt="slide2">
-        </div>
-        <div class="sliderImg">
-            <img src="./resources/slider/slide3.jpg" alt="slide3">
-        </div>
-        <div class="sliderImg">
-            <img src="./resources/slider/slide4.jpg" alt="slide4">
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <ul class="slides">
+            <li><img src="./resources/slider/slide1.jpg" alt="slide1" /></li>
+            <li><img src="./resources/slider/slide2.jpg" alt="slide2" /></li>
+            <li><img src="./resources/slider/slide3.jpg" alt="slide3" /></li>
+            <li><img src="./resources/slider/slide4.jpg" alt="slide4" /></li>
+        </ul>
+    <div class="buttons">
+        <div class="next">&#10095;</div>
+        <div class="prev">&#10094;</div>
+    </div>
 
     </div><!-- .slider -->
 
