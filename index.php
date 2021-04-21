@@ -49,39 +49,69 @@ include "templates/header.php";
                     <p class="name">OLD SKOOL 36 DX</p>
                     <p class="price">85,00€</p>
                 </div>
-            <button class="button">COMPRAR</button>
+                <button class="button">COMPRAR</button>
         </div>
         <div class="item2">
             <img alt="COMFYCUSH OLD SKOOL" src="./resources/products/vans2.png">
-            <div class="info">
+                <div class="info">
                     <p class="name">COMFYCUSH OLD <br> SKOOL</p>
                     <p class="price">75,00€</p>
                 </div>
-            <button class="button">COMPRAR</button>
+                <button class="button">COMPRAR</button>
         </div>
         <div class="item3">
             <img alt="OLD SKOOL DE ANTE Y LONA" src="./resources/products/vans3.png">
+                <div class="info">
+                    <p class="name">OLD SKOOL DE ANTE <br> Y LONA</p>
+                    <p class="price">60,00€</p>
+                </div>
+                <button class="button">COMPRAR</button>
         </div>
         <div class="item4">
             <img alt="OLD SKOOL DE ANTE SUAVE" src="./resources/products/vans4.png">
+                <div class="info">
+                    <p class="name">OLD SKOOL DE ANTE <br> SUAVE</p>
+                    <p class="price">65,00€</p>
+                </div>
+                <button class="button">COMPRAR</button>
         </div>
         <div class="item5">
             <img alt="cta1" src="./resources/cta/cta1.jpg">
         </div>
         <div class="item6">
             <img alt="OLD SKOOL PRO" src="./resources/products/vans5.png">
+                <div class="info">
+                    <p class="name">OLD SKOOL PRO</p>
+                    <p class="price">95,00€</p>
+                </div>
+                <button class="button">COMPRAR</button>
         </div>
         <div class="item7">
             <img alt="ANTI HERO OLD SKOOL PRO" src="./resources/products/vans6.png">
+                <div class="info">
+                    <p class="name">ANTI HERO OLD <br> SKOOL PRO</p>
+                    <p class="price">95,00€</p>
+                </div>
+                <button class="button">COMPRAR</button>
         </div>
         <div class="item8">
             <img alt="ERA PRIMARY CHECK" src="./resources/products/vans7.png">
+                <div class="info">
+                    <p class="name">ERA PRIMARY CHECK</p>
+                    <p class="price">95,00€</p>
+                </div>
+                <button class="button">COMPRAR</button>
         </div>
         <div class="item9">
             <img alt="cta2" src="./resources/cta/cta2.jpg">
         </div>
         <div class="item10">
             <img alt="STYLE 36" src="./resources/products/vans8.png">
+                <div class="info">
+                    <p class="name">STYLE 36</p>
+                    <p class="price">80,00€</p>
+                </div>
+                <button class="button">COMPRAR</button>
         </div>
 
 
