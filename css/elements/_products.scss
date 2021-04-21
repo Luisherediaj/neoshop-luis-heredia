@@ -1,7 +1,67 @@
 // TODO: Desarrollar el CSS para los productos
-.products {
+h1{
+    text-align: center;
+    font-family: var(--titles-font);
+}
+
+.item1{
+    grid-area: vans1; 
+}
+
+.item2{
+    grid-area: vans2; 
 
 }
+
+.item3{
+    grid-area: vans3; 
+}
+
+.item4{
+    grid-area: vans4; 
+}
+
+.item5{
+    grid-area: cta1; 
+    position:unset;
+    overflow: hidden;
+}
+
+.item6{
+    grid-area: vans5; 
+}
+
+.item7{
+    grid-area: vans6; 
+}
+
+.item8{
+    grid-area: vans7; 
+}
+
+.item9{
+    grid-area: cta2; 
+    position:unset;
+    overflow: hidden;
+}
+
+.item10{
+    grid-area: vans8; 
+}
+  
+
+.products {
+    display: grid;
+    grid-template-areas: 
+    'vans1 vans2 vans3'
+    'vans4 cta1 cta1'
+    'vans5 vans6 vans7'
+    'cta2 cta2 vans8';
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-template-rows: 15rem 15rem 15rem 15rem;
+    justify-content: center;
+}
+
 
 .load {
     text-align: center;
