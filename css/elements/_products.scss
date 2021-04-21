@@ -17,25 +17,21 @@ h1{
 }
 
     .item1{
-
         grid-column: 1/ 1;
         grid-row: 1/ 1;
     }
 
     .item2{
- 
         grid-column: 2/ 2;
         grid-row: 1/ 1;
     }
 
     .item3{
-
         grid-column: 3/ 3;
         grid-row: 1/ 1;
     }
 
     .item4{
-  
         grid-column: 1/ 1;
         grid-row: 2/ 2;
     }
@@ -48,6 +44,7 @@ h1{
         overflow: hidden;
         display: flex;
         flex-wrap: wrap-reverse;
+        box-shadow: 0.5px 9px 9px 4px rgba(0, 0, 0, 0.2);
     }
 
     .item6{
@@ -73,6 +70,7 @@ h1{
         overflow: hidden;
         display: flex;
         flex-wrap: wrap-reverse;
+        box-shadow: 0.5px 9px 9px 4px rgba(0, 0, 0, 0.2);
     }
 
     .item10{
