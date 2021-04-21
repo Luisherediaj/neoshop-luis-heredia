@@ -45,9 +45,19 @@ include "templates/header.php";
 
         <div class="item1">
             <img alt="OLD SKOOL 36 DX" src="./resources/products/vans1.png">
+                <div class="info">
+                    <p class="name">OLD SKOOL 36 DX</p>
+                    <p class="price">85,00€</p>
+                </div>
+            <button class="button">COMPRAR</button>
         </div>
         <div class="item2">
             <img alt="COMFYCUSH OLD SKOOL" src="./resources/products/vans2.png">
+            <div class="info">
+                    <p class="name">COMFYCUSH OLD <br> SKOOL</p>
+                    <p class="price">75,00€</p>
+                </div>
+            <button class="button">COMPRAR</button>
         </div>
         <div class="item3">
             <img alt="OLD SKOOL DE ANTE Y LONA" src="./resources/products/vans3.png">
