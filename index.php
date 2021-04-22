@@ -26,7 +26,7 @@ include "templates/header.php";
 
     <div class="slider">
         <!-- TODO: Desarrollar el marcado para el slider -->
-
+<!-- 
         <div class="mySlides fade">
             <img src="./resources/slider/slide1.jpg" style="width:100%">
             <div class="text">VANS OFF THE WALL</div>
@@ -45,14 +45,30 @@ include "templates/header.php";
         <div class="mySlides fade">
             <img src="./resources/slider/slide4.jpg" style="width:100%">
             <div class="text">VANS X FEDERAL</div>
-        </div>
+        </div> -->
 
-        <!-- <ul class="slides">
-            <li class="mySlides"><img src="./resources/slider/slide1.jpg" alt="slide1" /></li>
-            <li class="mySlides"><img src="./resources/slider/slide2.jpg" alt="slide2" /></li>
-            <li class="mySlides"><img src="./resources/slider/slide3.jpg" alt="slide3" /></li>
-            <li class="mySlides"><img src="./resources/slider/slide4.jpg" alt="slide4" /></li>
-        </ul> -->
+        <ul class="slides">
+            <li class="mySlides">
+                <img src="./resources/slider/slide1.jpg" alt="slide1" />
+                <div class="text">VANS OFF THE WALL</div>
+                <button class="buttonSlide">COMPRAR</button>
+            </li>
+            <li class="mySlides">
+                <img src="./resources/slider/slide2.jpg" alt="slide2" />
+                <div class="text">MADE WITH LIBERTY</div>
+                <button class="buttonSlide">COMPRAR</button>
+            </li>
+            <li class="mySlides">
+                <img src="./resources/slider/slide3.jpg" alt="slide3" />
+                <div class="text">ÚLTIMAS NOVEDADES</div>
+                <button class="buttonSlide">COMPRAR</button>
+            </li>
+            <li class="mySlides">
+                <img src="./resources/slider/slide4.jpg" alt="slide4" />
+                <div class="text">VANS X FEDERAL</div>
+                <button class="buttonSlide">COMPRAR</button>
+            </li>
+        </ul>
     <div class="buttons">
         <div class="next">&#10095;</div>
         <div class="prev">&#10094;</div>
