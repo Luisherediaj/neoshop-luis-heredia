@@ -1,4 +1,7 @@
 // TODO: Desarrollar el CSS para el slider
+
+// Slider basado en varios ejemplos
+
 * {
     box-sizing:border-box
 }
@@ -16,7 +19,7 @@
 .slider ul li  {
   position: relative;
   display: none;
-  height:350px;
+  height:60vh;
 }
 
 .slider ul li img {
@@ -32,7 +35,7 @@
 }
 
 .slider .buttons .next {
-  font-size: 2rem;
+  font-size: 3vw;
   right: 0;
   position: absolute;
   cursor: pointer;
@@ -42,7 +45,7 @@
   }
   
   .slider .buttons .prev {
-    font-size: 2rem;
+    font-size: 3vw;
     left: 0;
     position: absolute;
     cursor: pointer;
@@ -63,16 +66,18 @@
   
 .text {
     color: #f2f2f2;
-    font-size: 2rem;
-    padding: 0.5rem 0.5rem;
+    font-size: 1.9vw;
+    padding-left: 1vw;
+    padding-top: 1vh;
     position: absolute;
-    bottom:10rem;
-    left: 32rem;
+    bottom:25vh;
+    left: 38vw;
     width: 100%;
     text-align: center;
     background-color: var(--orange);
-    width: 20rem;
-    height: 3.5rem;
+    width: 20vw;
+    height: 3.5vw;
+    font-family: var--(titles-font);
 }
 
 .buttonSlide{
@@ -84,18 +89,10 @@
   color: var(--white);
   text-transform: uppercase;
   cursor: pointer;
-  bottom:7rem;
-  left: 32rem;
+  bottom:15vh;
+  left: 38vw;
   position: absolute;
+  width: 8vw;
+  height: 2.5vw;
+  font-size: 1.2vw;
 }
-
-
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }

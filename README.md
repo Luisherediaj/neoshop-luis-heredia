@@ -1,19 +1,10 @@
-# Neoshop
+# Prueba técnica de Luis Heredia
 
-En este documento se explicará el objetivo que buscamos para desarrollar esta prueba técnica satisfactoriamente.
-
-Para empezar, deberás descargarte el contenido de este repositorio utilizando GIT o de la manera que creas más conveniente.
-
-Para entregarlo, pásanos un repositorio en GitLab, GitHub o tu propio servidor o envíanoslo por correo electrónico con todas las instrucciones que necesitamos para montarlo en nuestro propio servidor y ver el resultado.
+Réplica de la Neoshop.
 
 ## Requisitos técnicos
 
-* Un servidor con PHP 7.0 o superior
-    * [XAMP para Windows y Mac](https://www.apachefriends.org/es/index.html).
-* Compilador de [Sass](https://sass-lang.com/).
-    * En [Visual Studio Code](https://code.visualstudio.com/) puedes utilizar [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass).
-    * En [Sublime Text](https://www.sublimetext.com/) puedes utilizar [SCSS Compiler](https://packagecontrol.io/packages/SCSS%20Compiler).
-    * En cualquier caso, se puede utilizar la propia [herramienta en línea de comandos](https://sass-lang.com/install).
+He modificado la línea 4 de config.php por "define('WEB_PATH', 'neoshop-luis-heredia/');", así que hay que modificarla para poder visionarlo.
 
 ## Se valorará positivamente
 

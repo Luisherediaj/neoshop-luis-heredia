@@ -1,6 +1,12 @@
 /**
  * TODO: Desarrollar el código del slider
  */
+
+// Slider basado en el que proporciona w3school, ya que no sabía cómo hacerlo
+// Sólo tiene la función de automático, ya que no fui capaz a poner ambos (que funcionasen los botones)
+//  a la vez
+
+
  var slideIndex = 0;
 showSlides();
 
@@ -13,7 +19,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000);
 }
 
 
